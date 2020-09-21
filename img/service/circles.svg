@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="322.472" height="298.375" viewBox="0 0 322.472 298.375">
+  <g id="グループ_443" data-name="グループ 443" transform="translate(-497.764 -1351.579)">
+    <g id="グループ_441" data-name="グループ 441" transform="translate(498 1352)">
+      <text id="CONSULTING" transform="translate(161.5 89.579)" fill="#d87668" font-size="13" font-family="BrandonGrotesque-Bold, Brandon Grotesque" font-weight="700" letter-spacing="0.06em"><tspan x="-44.323" y="0">CONSULTING</tspan></text>
+      <text id="SOLUTION" transform="translate(77 215.579)" fill="#d87668" font-size="13" font-family="BrandonGrotesque-Bold, Brandon Grotesque" font-weight="700" letter-spacing="0.06em"><tspan x="-34.86" y="0">SOLUTION</tspan></text>
+      <text id="R_D" data-name="R&amp;D" transform="translate(235 215.579)" fill="#d87668" font-size="13" font-family="BrandonGrotesque-Bold, Brandon Grotesque" font-weight="700" letter-spacing="0.06em"><tspan x="-14.384" y="0">R&amp;D</tspan></text>
+      <g id="楕円形_41" data-name="楕円形 41" transform="translate(73 -0.421)" fill="none" stroke="#e2e2e2" stroke-width="1">
+        <circle cx="88" cy="88" r="88" stroke="none"/>
+        <circle cx="88" cy="88" r="87.5" fill="none"/>
+      </g>
+      <g id="楕円形_40" data-name="楕円形 40" transform="translate(147 122.579)" fill="none" stroke="#e2e2e2" stroke-width="1">
+        <circle cx="87.5" cy="87.5" r="87.5" stroke="none"/>
+        <circle cx="87.5" cy="87.5" r="87" fill="none"/>
+      </g>
+      <g id="楕円形_39" data-name="楕円形 39" transform="translate(0 122.579)" fill="none" stroke="#e2e2e2" stroke-width="1">
+        <circle cx="87.5" cy="87.5" r="87.5" stroke="none"/>
+        <circle cx="87.5" cy="87.5" r="87" fill="none"/>
+      </g>
+      <g id="楕円形_39-2" data-name="楕円形 39" transform="translate(0.264 122.729)">
+        <path id="パス_6834" data-name="パス 6834" d="M-556.859,573.241A86.954,86.954,0,0,1-602.676,586.2a87.362,87.362,0,0,1-87.362-87.362,87.362,87.362,0,0,1,87.362-87.362,87.362,87.362,0,0,1,87.362,87.362A86.954,86.954,0,0,1-529.3,546.278" transform="translate(690.038 -411.48)" fill="none" stroke="#d87668" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="楕円形_39-3" data-name="楕円形 39" transform="translate(147.012 122.729)">
+        <path id="パス_6835" data-name="パス 6835" d="M-370.493,424.444a86.951,86.951,0,0,1,45.817-12.964,87.362,87.362,0,0,1,87.362,87.362A87.362,87.362,0,0,1-324.676,586.2a87.362,87.362,0,0,1-87.362-87.362,86.952,86.952,0,0,1,13.987-47.435" transform="translate(412.038 -411.48)" fill="none" stroke="#d87668" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="楕円形_39-4" data-name="楕円形 39" transform="translate(73.665 0.254)">
+        <path id="パス_6836" data-name="パス 6836" d="M-550.986,264.192a86.957,86.957,0,0,1,14.366-45.4,87.362,87.362,0,0,1,121.008-24.929,87.362,87.362,0,0,1,24.929,121.008A87.362,87.362,0,0,1-511.691,339.8a86.956,86.956,0,0,1-31.928-37.766" transform="translate(550.986 -179.462)" fill="none" stroke="#d87668" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <path id="合体_17" data-name="合体 17" d="M2.819,0,0,2.935Zm0,0,2.9,2.639Z" transform="translate(131.909 282.034) rotate(59)" fill="none" stroke="#d87668" stroke-linejoin="round" stroke-width="1"/>
+      <path id="合体_18" data-name="合体 18" d="M2.819,0,0,2.935Zm0,0,2.9,2.639Z" transform="matrix(-0.545, -0.839, 0.839, -0.545, 189.989, 137.999)" fill="none" stroke="#d87668" stroke-linejoin="round" stroke-width="1"/>
+      <path id="合体_19" data-name="合体 19" d="M2.819,0,0,2.935Zm0,0,2.9,2.639Z" transform="translate(76.414 85.402) rotate(-173)" fill="none" stroke="#d87668" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

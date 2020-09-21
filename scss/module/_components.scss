@@ -1,0 +1,178 @@
+// CVボタン
+.cvBtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 112rem;
+  padding: 3rem;
+  margin: 0 auto 10rem;
+  background-color: $color-main;
+  @include respond(tab-port){
+    align-items: center;
+    padding: 5rem 6.5rem;
+    margin: 0 auto 15rem;
+  }
+  &__dlTxt{
+    color: $color-white;
+    &--jp{
+      font-size: 2rem;
+      font-weight: bold;
+      line-height: 1;
+      margin-bottom: .7rem;
+      letter-spacing: .06em;
+      @include respond(tab-port){
+        font-size: 2.8rem;
+        margin-bottom: 1.5rem;
+      }
+    }
+    &--en{
+      font-size: 16px;
+      line-height: 1;
+      letter-spacing: .06em;
+    }
+  }
+
+  &__dlIcon{
+    width: 2.8rem;
+    @include respond(tab-port){
+      width: 5.2rem;
+    }
+    &--up{
+      position: relative;
+      top: .5rem;
+      width: .9rem;
+      margin: 0 auto; 
+      @include respond(tab-port){
+        width: 1.5rem;
+      }
+    }
+    &--down{
+      width: 100%;
+    }
+  }
+}
+
+//各コンテンツのタイトル
+.blockTtl{
+  font-family: brandon-grotesque, sans-serif;
+  color: $color-main;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.5rem;
+  // width: 100%;
+  max-width: 95rem;
+  font-size: 2.6rem;
+  margin: 0 auto 3.5rem;
+  &__ctg{
+    font-size: 2.6rem;
+    letter-spacing: .06em;
+    font-weight: bold;
+    @include respond(tab-port){
+      font-size: 3.6rem;
+    }
+  }
+  &__all{
+    width: 7rem;
+    @include respond(tab-port){
+      width: 9rem;
+    }
+    a{
+      color: $color-main;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &--txt{
+      font-size: 1.6rem;
+      letter-spacing: .06em;
+      
+    }
+    &--icon{
+      width: 1.3rem;
+     height: 1.3rem;
+      img{
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+//各ページのタイトル
+.pageTtl--en{
+  font-family: brandon-grotesque, sans-serif;
+  color: $color-main;
+  font-size: 2.6rem;
+  margin-bottom: 4rem;
+  letter-spacing: .06em;
+  @include respond(tab-port){
+    font-size: 3.6rem;
+    font-weight: bold;
+  }
+}
+.mainTtl--jp{
+  font-family: noto-sans-cjk-jp, sans-serif;
+  color: $color-font;
+  font-size: 2.6rem;
+  font-weight: bold;
+  line-height: 1.53;
+  @include respond(tab-port){
+    font-size: 5rem;
+    line-height: 1.7;
+    font-weight: bold;
+  }
+}
+
+//View detailsボタン
+.viewDetails{
+  &__inner{
+    position: relative;
+    width: 100%;
+    max-width: 99rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+    border-bottom: .2rem solid $color-main;
+    color: $color-main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 10;
+    &:hover .arrowIcon{
+      transform: translateX(.7rem);
+    }
+    // &:hover::after{
+    //   left: 100%;
+    // }
+    // &::after{
+    //   content: '';
+    //   position: absolute;
+    //   display: inline-block;
+    //   width: 100%;
+    //   height: 100%;
+    //   border-bottom: .2rem solid $color-white;
+    //   left: -100%;
+    //   bottom: -2px;
+    //   z-index: 10;
+    //   transition: all .6s;
+    // }
+  }
+  &__ttl{
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: .06em;
+    @include respond(tab-port){
+      width: 90%;
+    }
+  }
+}
+
+.arrowIcon{
+  width: 2rem;
+  height: 2rem;
+  background: url(../img/common/arrow.png) no-repeat;
+  background-size: contain;
+  transition: transform .7s;
+}

@@ -1,0 +1,6 @@
+.header .header__left .logo{
+  opacity: 0;
+  position: relative;
+  top: -30rem;
+  transition: all .5s;
+}

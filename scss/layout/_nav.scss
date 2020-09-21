@@ -1,0 +1,91 @@
+.hambMenu{
+  &__nav{
+    height: 100%;
+    background: $color-sub;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 0;
+    transition: all .4s cubic-bezier(0, 0.77, 0.51, 0.94);
+  }
+  &__logo{
+    z-index: 9999;
+  }
+  &__lists{
+    width: 50%;
+    @include absCenter;
+    top: 50%;
+    list-style: none;
+    text-align: center;
+    z-index: -1;
+    @include respond(tab-port){
+      width: 30rem;
+    }
+  }
+  &__list{
+    width: 100%;
+    transition: all .5s cubic-bezier(0.56, 0.21, 0.47, 1.14);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: left;
+    &:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+  &__link{
+    &:link,&:visited{
+      display: block;
+      color: $color-white;
+      font-size: 4rem;
+      font-family: brandon-grotesque, sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all .2s;
+      background-size: 200%;
+      @include respond(tab-port){
+        font-size: 5rem;
+      }
+    }
+    &:hover,&:active{
+      transform: translateX(1rem);
+    }
+  }
+}
+
+.humbOn{
+  opacity: 1;
+  z-index: 1500;
+  width: 100%;
+  left: 0;
+  @include respond(tab-port){
+      opacity: 1;
+      z-index: 1500;
+      width: 100%;
+  }
+  
+  
+  .navigation__list{
+      .navigation__item{
+        width: 93%;
+          .navigation__link{
+            @include respond(tab-port){
+                  display: inline-block;
+              }
+          }
+      }
+  }
+}
+.hambClose{
+  font-size: 1.2rem;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: bold;
+  letter-spacing: .06em;
+  color: $color-main;
+  transition: all .3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

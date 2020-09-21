@@ -1,0 +1,49 @@
+// 黒ロゴと白ロゴのスイッチ
+.on{
+  position: relative;
+  z-index: 9999;
+  display: block;
+  transition: opacity .2s;
+}
+
+.off{
+  display: none;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+
+//ハンバーガーメニューのon/off
+
+// オン時
+.hambIconOn{
+  border: .1rem solid #e78c7d !important;
+  opacity: 1;
+  transition: all .3s;
+}
+.dotsDisp{
+  // display: none;
+  opacity: 0;
+  transition: all .3s;
+}
+.hambCls{
+  // display: block !important;
+  opacity: 1 !important;
+  transition: all .3s;
+}
+// オフ時
+
+
+//topページロゴ
+.l-header{
+  .header{
+    .header__left{
+      .downBack{
+        top: 0;
+        opacity: 1;
+      }
+    }
+    
+  }
+  
+}

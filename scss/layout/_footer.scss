@@ -1,0 +1,66 @@
+.footer{
+  background-color: $color-grey;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  @include respond(tab-port){
+    padding-top: 12rem;
+    padding-bottom: 4rem;
+  }
+  &__above{
+    width: 100%;
+    max-width: 112rem;
+    margin: 0 auto;
+    @include respond(tab-port){
+      margin: 0 auto 8rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+  }
+  
+  &__logo{
+    width: (155px / 375px) * 100vw;
+    max-width: 15.5rem;
+    margin-right: auto;
+    margin-bottom: 4.5rem;
+    @include respond(tab-port){
+      margin-bottom: 0;
+    }
+  }
+  &__nav{
+    width: 100%;
+    @include respond(tab-port){
+      width: 60%;
+      max-width: 44rem;
+      height: 1.5rem;
+    }
+  }
+  &__menuLists{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__menuList{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    a{
+      color: $color-font;
+      transition: color .3s;
+      &:hover{
+        color: $color-main;
+      }
+    }
+    @include respond(tab-port){
+      height: 1.6rem;
+    }
+  }
+  &__copyright{
+    color: $color-font-grey;
+    font-size: 1.4rem;
+    line-height: 1;
+    text-align: right;
+    @include respond(tab-port){
+      text-align: center;
+    }
+  }
+}
