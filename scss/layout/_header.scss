@@ -27,6 +27,7 @@
       }
       @include respond(laptop){
         width: 44rem;
+        margin-right: 5rem;
       }
     }
     @include respond(tab-port){
@@ -42,11 +43,29 @@
   }
   &__menuList{
     font-size: 1.5rem;
+    padding-bottom: .5rem;
+    overflow: hidden;
     a{
       color: $color-font;
       transition: color .3s;
+      position: relative;
+      
+      &::before{
+        content: '';
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+        left: -100%;
+        height: .15rem;
+        width: 100%;
+        background: $color-main;
+        transition: left .3s;
+      }
       &:hover{
         color: $color-main;
+        &::before{
+          left: 0;
+        }
       }
     }
   }
@@ -60,22 +79,21 @@
     background-color: $color-white;
     cursor: pointer;
     transition: all .3s;
-    &:hover .hambClose{
-      transform: translate(-50%,-50%) rotate(-90deg);
+    &:hover .header__hamb--dotsContainer{
+      transform:  rotate(90deg);
     }
-    // &:hover .header__hamb--dotsContainer{
-    //   transform:  rotate(90deg);
-    // }
     @include respond(tab-port){
       width: 6.5rem;
       height: 6.5rem;
     }
-    // &--dotsContainer{
-    //   width: 6.5rem;
-    //   height: 6.5rem;
-    //   border-radius: 50% 50%;
-    //   transition: transform .3s;
-    // }
+    &--dotsContainer{
+      width: 100%;
+      height: 100%;
+      border-radius: 50% 50%;
+      bottom: .1rem;
+      right: .1rem;
+      transition: transform .3s;
+    }
     &--dots{
       width: .6rem;
       height: .6rem;

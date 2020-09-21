@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="UTF-8">
 
@@ -96,7 +97,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="news__item wow fadeInLeft">
+                    <li class="news__item wow fadeInLeft" data-wow-delay=".3s">
                         <a href="#">
                             <div class="news__item--left">
                                 <time class="news__item--date en">2020.12.20</time>
@@ -107,7 +108,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="news__item wow fadeInLeft">
+                    <li class="news__item wow fadeInLeft" data-wow-delay=".6s">
                         <a href="#">
                             <div class="news__item--left">
                                 <time class="news__item--date en">2020.12.20</time>
@@ -134,7 +135,7 @@
                     </div>
                 </div>
                 <ul class="blog__items">
-                    <li class="blog__item">
+                    <li class="blog__item wow fadeInLeft" data-wow-delay=".4s">
                         <a href="#">
                             <figure class="blog__item--img"><img src="img/top/blogPic_01.jpg"></figure>
                             <div class="blog__item--txt">
@@ -146,7 +147,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="blog__item">
+                    <li class="blog__item wow fadeInLeft" data-wow-delay=".2s">
                         <a href="#">
                             <figure class="blog__item--img"><img src="img/top/blogPic_01.jpg"></figure>
                             <div class="blog__item--txt">
@@ -158,7 +159,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="blog__item">
+                    <li class="blog__item wow fadeInLeft">
                         <a href="#">
                             <figure class="blog__item--img"><img src="img/top/blogPic_01.jpg"></figure>
                             <div class="blog__item--txt">

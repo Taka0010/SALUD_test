@@ -3,10 +3,10 @@
         <p class="footer__logo"><img src="<?php print $Path; ?>img/common/logo.svg" alt="salud"></p>
         <nav class="footer__nav">
             <ul class="footer__menuLists en">
-                <li class="footer__menuList"><a href="#">ABOUT</a></li>
-                <li class="footer__menuList"><a href="#">SERVICE</a></li>
-                <li class="footer__menuList"><a href="#">NEWS</a></li>
-                <li class="footer__menuList"><a href="#">CONTACT</a></li>
+                <li class="footer__menuList"><a href="<?php print $Path; ?>about/">ABOUT</a></li>
+                <li class="footer__menuList"><a href="<?php print $Path; ?>service/">SERVICE</a></li>
+                <li class="footer__menuList"><a href="<?php print $Path; ?>news/">NEWS</a></li>
+                <li class="footer__menuList"><a href="<?php print $Path; ?>contact/">CONTACT</a></li>
             </ul>
         </nav>
     </div>
