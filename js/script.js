@@ -26,7 +26,9 @@ $(function(){
   window.smoothScroll = function() {
     $('a[href^="#"]').on('click', function(){
     var href = $(this).attr('href');
-    if(href != '#'){ $('html, body').stop().animate({scrollTop: $(href == '#top' ? 'html' : href).offset().top}, 500); return false; }
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top - 20 + 'px';
+    if(href != '#'){ $('html, body').stop().animate({scrollTop: position}, 500); return false; }
     });
   }
   smoothScroll();
