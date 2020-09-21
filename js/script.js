@@ -21,6 +21,17 @@ $(function(){
     hambClose.toggleClass('hambCls');
   });
 
+
+  //////////// ▼▼ スムーススクロール ▼▼ ////////////
+  window.smoothScroll = function() {
+    $('a[href^="#"]').on('click', function(){
+    var href = $(this).attr('href');
+    if(href != '#'){ $('html, body').stop().animate({scrollTop: $(href == '#top' ? 'html' : href).offset().top}, 500); return false; }
+    });
+  }
+  smoothScroll();
+
+  
   //////////// ▼▼ WOW.JS ▼▼ ////////////
   new WOW().init();
 
