@@ -118,10 +118,6 @@
   }
 }
 
-// スムーススクロール用パディング
-// #vision,#mission,#member,#company{
-//   padding-top: 2rem;
-// }
 
 //ABOUT CSS start
 
@@ -167,6 +163,8 @@
   &__nav{
     margin-left: auto;
     width: 28rem;
+    position: relative;
+    z-index: 200;
     @include respond(tab-port){
       width: 36rem;
     }
@@ -262,7 +260,7 @@
       height: 41.7vw;
       p{
         color: $color-white;
-        font-size: (42 / 1440)*100vw;
+        font-size: 1.6rem;
         font-weight: bold;
         letter-spacing: .06em;
         @include absCenter 
@@ -373,6 +371,7 @@
     }
   }
   &__map{
+    filter: grayscale(1);
     height: 20rem;
     @include respond(tab-port){
       height: 39rem;

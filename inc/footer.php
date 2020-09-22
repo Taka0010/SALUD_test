@@ -1,6 +1,6 @@
 <footer class="footer l-base">
     <div class="footer__above">
-        <p class="footer__logo"><img src="<?php print $Path; ?>img/common/logo.svg" alt="salud"></p>
+        <a href="<?php print $Path; ?>"><p class="footer__logo"><img src="<?php print $Path; ?>img/common/logo.svg" alt="salud"></p></a>
         <nav class="footer__nav">
             <ul class="footer__menuLists en">
                 <li class="footer__menuList"><a href="<?php print $Path; ?>about/">ABOUT</a></li>

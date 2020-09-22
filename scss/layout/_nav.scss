@@ -8,7 +8,7 @@
     left: 0;
     opacity: 0;
     width: 0;
-    transition: all .4s cubic-bezier(0, 0.77, 0.51, 0.94);
+    transition: all .4s $easeOutExpo;
   }
   &__logo{
     z-index: 9999;
@@ -26,7 +26,7 @@
   }
   &__list{
     width: 100%;
-    transition: all .5s cubic-bezier(0.56, 0.21, 0.47, 1.14);
+    transition: all .5s $easeOutExpo;
     margin-bottom: 2rem;
     padding: 1rem;
     text-align: left;
@@ -42,7 +42,7 @@
       font-family: brandon-grotesque, sans-serif;
       font-weight: bold;
       text-decoration: none;
-      transition: all .2s;
+      transition: all .2s $easeOutExpo;
       background-size: 200%;
       @include respond(tab-port){
         font-size: 5rem;
@@ -83,7 +83,7 @@
   font-weight: bold;
   letter-spacing: .06em;
   color: $color-main;
-  transition: all .3s;
+  transition: all .3s $easeOutExpo;
   position: absolute;
   top: 50%;
   left: 50%;

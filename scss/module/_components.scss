@@ -142,21 +142,6 @@
     &:hover .arrowIcon{
       transform: translateX(.7rem);
     }
-    // &:hover::after{
-    //   left: 100%;
-    // }
-    // &::after{
-    //   content: '';
-    //   position: absolute;
-    //   display: inline-block;
-    //   width: 100%;
-    //   height: 100%;
-    //   border-bottom: .2rem solid $color-white;
-    //   left: -100%;
-    //   bottom: -2px;
-    //   z-index: 10;
-    //   transition: all .6s;
-    // }
   }
   &__ttl{
     width: 80%;
@@ -174,5 +159,5 @@
   height: 2rem;
   background: url(../img/common/arrow.png) no-repeat;
   background-size: contain;
-  transition: transform .7s;
+  transition: transform .7s $easeOutExpo;
 }

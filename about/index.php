@@ -40,11 +40,11 @@
             
             <div class="about__inner l-base" id="vision">
                 <div class="about__vision">
-                    <div class="about__ttlBox wow fadeInLeft">
+                    <div class="about__ttlBox wow fadeInUp">
                         <div class="about__enTtl">VISION</div>
                         <div class="about__jpTtl">こころ<span>と</span>からだ<span>の</span><br>豊さ<span>を</span>。</div>
                     </div>
-                    <div class="about__txtBox wow fadeInLeft">
+                    <div class="about__txtBox wow fadeInUp">
                         <p>限りある人生を充実させ、満足度を高めるためにできることは、人それぞれなのだと思います。</p>
                         <p>寝食を忘れ没頭できる仕事がある、心と体の健康が保たれる、自分の人生と肯定的に向き合える、愛する家族と食事を楽しむ、友だちとくだらない話で盛り上がる、大好きな酒やタバコを味わう、誰も発見したことがない何かに辿り着く、スタイルは十人十色でいい。</p>
                         <p>私たちは、誰かの人生の豊かさに寄与することで社会全体の満足度の総和を大きくします。</p>
@@ -62,11 +62,11 @@
                 </div>
                 <div class="about__inner l-base" id="mission">
                     <div class="about__mission">
-                        <div class="about__ttlBox wow fadeInLeft">
+                        <div class="about__ttlBox wow fadeInUp">
                             <div class="about__enTtl">MISSION</div>
                             <div class="about__jpTtl">人生<span>の</span>満足度<span>に</span><br>貢献する</div>
                         </div>
-                        <div class="about__txtBox wow fadeInLeft">
+                        <div class="about__txtBox wow fadeInUp">
                             <p>日本で少子化・高齢化が問題視されてしばらく経ちます。長生きできる世の中に感謝しつつ、人生の選択肢が多様化したことや社会構造の変化にシステムが対応できていない現状があると考えています。</p>
                             <p>私たちは、テクノロジーの力によって、人が漠然と抱える不安を明らかにし、その解決方法となり得る選択肢を届けます。<br>結果として、より多くの人が、満足度高く生きられる社会をつくりたいと考えています。</p>
                         </div>
@@ -81,35 +81,35 @@
             </div>
             <div class="member__container l-base">
                 <div class="member__box member__box--fst">
-                    <div class="member__port wow fadeInLeft">
+                    <div class="member__port wow fadeInUp">
                         <figure class="member__pic"><img src="../img/about/mr_sonobe.jpg" alt="園部 敦史"></figure>
                         <div class="member__posiName">
                             <p class="member__position">代表取締役</p>
                             <p class="member__name">園部 敦史</p>
                         </div>
                     </div>
-                    <div class="member__introduction onlyShowForSp wow fadeInLeft">
+                    <div class="member__introduction onlyShowForSp wow fadeInUp">
                         <p>株式会社インテリジェンス（現パーソルキャリア株式会社）で営業として従事。その後、プライマル株式会社にて
 通信会社と⾃然⾔語処理による機械翻訳DB開発事業を担当。デジタル・アドバタイジング・コンソーシアム株式
 会社でマーケティングデータ活⽤⽀援、株式会社FiNC Technologiesでヘルスケアメディアの広告事業開発を経験。<br>2018年、株式会社saludを創業。現在、データ取得及び活⽤に関連する特許出願中<br>2012年、関⻄⼤学法学部法律学科卒業。専攻は政治哲学。</p>
                     </div>
                 </div>
                 <div class="member__box member__box--sec">
-                    <div class="member__port wow fadeInLeft">
+                    <div class="member__port wow fadeInUp">
                         <figure class="member__pic"><img src="../img/about/mr_nasukawa.jpg" alt="那須川 進⼀"></figure>
                         <div class="member__posiName">
                             <p class="member__position">取締役CAO</p>
                             <p class="member__name">那須川 進⼀</p>
                         </div>
                     </div>
-                    <div class="member__introduction onlyShowForSp wow fadeInLeft">
+                    <div class="member__introduction onlyShowForSp wow fadeInUp">
                         <p>あずさ監査法⼈で⽶国及び⽇本基準での会計監査業務に従事。その後、マーサージャパン株式会社でM&Aデュー
 デリジェンスやSO公正価値評価、デジタル・アドバタイジング・コンソーシアム株式会社で広告アルゴリズム開
 発、少額短期保険事業者の株式会社justInCaseの共同創業など経験。インターネット広告に関連する複数特許保
 有。公認会計⼠。⽇本アクチュアリー正会員。データサイエンティスト。2019年、株式会社saludへ参画。<br>2005年、東京⼤学理学部数学科卒業。専攻は解析学。</p>
                     </div>
                 </div>
-                <div class="member__box member__box--thd onlyShowForPc wow fadeInLeft">
+                <div class="member__box member__box--thd onlyShowForPc wow fadeInUp">
                     <p>JOIN US</p>
                 </div>
             </div>
@@ -118,7 +118,7 @@
         <section class="company" id="company">
             <div class="company__inner l-base">
                 <h1 class="company__ttl pageTtl--en">COMPANY</h1>
-                <table class="company__table wow fadeInLeft">
+                <table class="company__table">
                     <tr>
                         <th>会社名</th>
                         <td>株式会社salud</td>
