@@ -37,7 +37,7 @@
 }
 .contactForm{
   background: $color-white;
-  font-family: noto-sans-cjk-jp, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   margin-bottom: 16rem;
   @include respond(tab-port){
     margin-bottom: 45rem;

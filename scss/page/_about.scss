@@ -14,7 +14,7 @@
   &__jpTtl{
     color: $color-font;
     font-size: 2.6rem;
-    font-family: noto-sans-cjk-jp, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     line-height: 1.54;
     padding-bottom: 2.5rem;
@@ -36,7 +36,7 @@
     z-index: 10;
     color: $color-font;
     font-size: 1.4rem;
-    font-family: noto-sans-cjk-jp, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     line-height: 2.28;
     background: $color-white;
     &::before,&::after{
@@ -292,7 +292,7 @@
     margin-bottom: 1.5rem;
   }
   &__introduction{
-    font-family: noto-sans-cjk-jp, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.2rem;
     color: $color-font;
     letter-spacing: .06em;
@@ -413,7 +413,7 @@
       margin-left: 8rem;
     }
     &--txt{
-      font-family: noto-sans-cjk-jp, sans-serif;
+      font-family: 'Noto Sans', sans-serif;
       font-size: 1.4rem;
       line-height: 2;
       margin-bottom: 4rem;
