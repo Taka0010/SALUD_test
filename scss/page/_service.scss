@@ -166,7 +166,7 @@
   }
   &__box{
     color: $color-font;
-    font-family: noto-sans-cjk-jp, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     @include respond(tab-port){
       display: flex;
       justify-content: space-between;

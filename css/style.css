@@ -151,7 +151,7 @@ body {
       font-weight: bold; } }
 
 .mainTtl--jp {
-  font-family: noto-sans-cjk-jp, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   color: #323232;
   font-size: 2.6rem;
   font-weight: bold;
@@ -235,7 +235,7 @@ body {
   font-family: brandon-grotesque, sans-serif; }
 
 .jp {
-  font-family: noto-sans-cjk-jp, sans-serif; }
+  font-family: 'Noto Sans', sans-serif; }
 
 .header__menuList, .footer__menuList {
   letter-spacing: .06em; }
@@ -1004,7 +1004,7 @@ body {
         margin-bottom: 3rem; } }
   .servicePoints__box {
     color: #323232;
-    font-family: noto-sans-cjk-jp, sans-serif; }
+    font-family: 'Noto Sans', sans-serif; }
     @media only screen and (min-width: 600px) {
       .servicePoints__box {
         display: flex;
@@ -1103,7 +1103,7 @@ body {
 .about__jpTtl {
   color: #323232;
   font-size: 2.6rem;
-  font-family: noto-sans-cjk-jp, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
   line-height: 1.54;
   padding-bottom: 2.5rem; }
@@ -1123,7 +1123,7 @@ body {
   z-index: 10;
   color: #323232;
   font-size: 1.4rem;
-  font-family: noto-sans-cjk-jp, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   line-height: 2.28;
   background: #fff; }
   .about__txtBox::before, .about__txtBox::after {
@@ -1334,7 +1334,7 @@ body {
     letter-spacing: .06em;
     margin-bottom: 1.5rem; }
   .member__introduction {
-    font-family: noto-sans-cjk-jp, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.2rem;
     color: #323232;
     letter-spacing: .06em;
@@ -1432,7 +1432,7 @@ body {
         width: 55rem;
         margin-left: 8rem; } }
     .aboutLogo__expContainer--txt {
-      font-family: noto-sans-cjk-jp, sans-serif;
+      font-family: 'Noto Sans', sans-serif;
       font-size: 1.4rem;
       line-height: 2;
       margin-bottom: 4rem; }
@@ -1474,7 +1474,7 @@ body {
 
 .contactForm {
   background: #fff;
-  font-family: noto-sans-cjk-jp, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   margin-bottom: 16rem; }
   @media only screen and (min-width: 600px) {
     .contactForm {
