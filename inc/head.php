@@ -1,5 +1,6 @@
 <link rel=stylesheet type=text/css href="<?php print $Path; ?>css/style.css">
 <link rel=stylesheet type=text/css href="<?php print $Path; ?>css/lib/animate.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 <script>
   (function(d) {
     var config = {
