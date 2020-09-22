@@ -42,7 +42,7 @@
                 <div class="whoWeAre__inner l-base">
                     <div class="whoWeAre__container">
                         <div class="whoWeAre__pcLayout">
-                            <div class="whoWeAre__pcLayout--inner wow fadeInLeft">
+                            <div class="whoWeAre__pcLayout--inner wow fadeInUp">
                                 <div class="whoWeAre__ttlContainer">
                                     <h2 class="whoWeAre__ttl--en en">WHO WE ARE</h3>
                                     <h2 class="whoWeAre__ttl--jp jp">豊かさ<span>を</span>研究<span>する</span>会社</h2>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <ul class="news__items">
-                    <li class="news__item wow fadeInLeft">
+                    <li class="news__item wow fadeInUp">
                         <a href="#">
                             <div class="news__item--left">
                                 <time class="news__item--date en">2020.12.20</time>
@@ -97,7 +97,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="news__item wow fadeInLeft" data-wow-delay=".3s">
+                    <li class="news__item wow fadeInUp" data-wow-delay=".3s">
                         <a href="#">
                             <div class="news__item--left">
                                 <time class="news__item--date en">2020.12.20</time>
@@ -108,7 +108,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="news__item wow fadeInLeft" data-wow-delay=".6s">
+                    <li class="news__item wow fadeInUp" data-wow-delay=".6s">
                         <a href="#">
                             <div class="news__item--left">
                                 <time class="news__item--date en">2020.12.20</time>
@@ -135,7 +135,7 @@
                     </div>
                 </div>
                 <ul class="blog__items">
-                    <li class="blog__item wow fadeInLeft" data-wow-delay=".4s">
+                    <li class="blog__item wow fadeInUp">
                         <a href="#">
                             <figure class="blog__item--img"><img src="img/top/blogPic_01.jpg"></figure>
                             <div class="blog__item--txt">
@@ -147,7 +147,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="blog__item wow fadeInLeft" data-wow-delay=".2s">
+                    <li class="blog__item wow fadeInUp" data-wow-delay=".2s">
                         <a href="#">
                             <figure class="blog__item--img"><img src="img/top/blogPic_01.jpg"></figure>
                             <div class="blog__item--txt">
@@ -159,7 +159,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="blog__item wow fadeInLeft">
+                    <li class="blog__item wow fadeInUp" data-wow-delay=".4s">
                         <a href="#">
                             <figure class="blog__item--img"><img src="img/top/blogPic_01.jpg"></figure>
                             <div class="blog__item--txt">

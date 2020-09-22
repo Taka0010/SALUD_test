@@ -47,23 +47,24 @@
     overflow: hidden;
     a{
       color: $color-font;
-      transition: color .3s;
+      transition: color .3s $easeOutExpo;
       position: relative;
-      
       &::before{
         content: '';
         position: absolute;
         display: inline-block;
         bottom: 0;
-        left: -100%;
+        right: 0;
+        left: auto;
         height: .15rem;
-        width: 100%;
+        width: 0;
         background: $color-main;
-        transition: left .3s;
+        transition: all .3s $easeOutExpo;
       }
       &:hover{
         color: $color-main;
         &::before{
+          width: 100%;
           left: 0;
         }
       }
@@ -78,7 +79,7 @@
     border: .1rem solid $color-font;
     background-color: $color-white;
     cursor: pointer;
-    transition: all .3s;
+    transition: all .3s $easeOutExpo;
     &:hover .header__hamb--dotsContainer{
       transform:  rotate(90deg);
     }
@@ -92,7 +93,7 @@
       border-radius: 50% 50%;
       bottom: .1rem;
       right: .1rem;
-      transition: transform .3s;
+      transition: transform .3s $easeOutExpo;
     }
     &--dots{
       width: .6rem;

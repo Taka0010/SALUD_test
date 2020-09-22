@@ -271,7 +271,7 @@
     }
     &--right{
       width: 6%;
-      transition: transform .7s;
+      transition: transform .7s $easeOutExpo;
     }
     &--date{
       display: block;
@@ -349,7 +349,7 @@
         margin-bottom: 2rem;
       }
       img{
-        transition: transform 1s;
+        transition: transform .5s $easeOutExpo;
       }
     }
     &--txt{
