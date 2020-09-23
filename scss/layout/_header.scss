@@ -1,122 +1,149 @@
-.header{
-  position: fixed;
-  z-index: 100;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 2rem 1.7rem;
-  @include respond(laptop){
-    padding: 3rem 4rem;
-  }
-  .logo,.hambMenu__logo{
-    width: (104px/375px)*100vw;
-    @include respond(tab-port){
-      width: 14rem;
-    }
-  }
-  &__right{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    &--width{
-      width: 70%;
-      @include respond(tab-port){
-        margin-right: 5vw;
-        margin-left: auto;
-      }
-      @include respond(laptop){
-        width: 44rem;
-        margin-right: 5rem;
-      }
-    }
-    @include respond(tab-port){
-      width: 100%;
-      min-width: 35rem;
-      max-width: 56rem;
-    }
-  }
-  &__menuLists{
-    display: flex;
-    font-weight: bold;
-    justify-content: space-between;
-  }
-  &__menuList{
-    font-size: 1.5rem;
-    padding-bottom: .5rem;
-    overflow: hidden;
-    a{
-      color: $color-font;
-      transition: color .3s $easeOutExpo;
-      position: relative;
-      &::before{
-        content: '';
-        position: absolute;
-        display: inline-block;
-        bottom: 0;
-        right: 0;
-        left: auto;
-        height: .15rem;
-        width: 0;
-        background: $color-main;
-        transition: all .3s $easeOutExpo;
-      }
-      &:hover{
-        color: $color-main;
-        &::before{
-          width: 100%;
-          left: 0;
-        }
-      }
-    }
-  }
-  &__hamb{
-    position: relative;
-    z-index: 9999;
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50% 50%;
-    border: .1rem solid $color-font;
-    background-color: $color-white;
-    cursor: pointer;
-    transition: all .3s $easeOutExpo;
-    &:hover .header__hamb--dotsContainer{
-      transform:  rotate(90deg);
-    }
-    @include respond(tab-port){
-      width: 6.5rem;
-      height: 6.5rem;
-    }
-    &--dotsContainer{
-      width: 100%;
-      height: 100%;
-      border-radius: 50% 50%;
-      bottom: .1rem;
-      right: .1rem;
-      transition: transform .3s $easeOutExpo;
-    }
-    &--dots{
-      width: .6rem;
-      height: .6rem;
-      border-radius: 50% 50%;
-      background-color: $color-font;
-    }
-    &--fst{
-      @include absCenter;
-      top: 1.3rem;
-      @include respond(tab-port){
-        top: 2.1rem;
-      }
-    }
-    &--sec{
-      @include absCenter;
-    }
-    &--thrd{
-      @include absCenter;
-      top: 3.5rem;
-      @include respond(tab-port){
-        top: 4.3rem;
-      }
-    }
-  }
+.header {
+	position: fixed;
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 2rem 1.7rem;
+
+	@include respond(laptop) {
+		padding: 3rem 4rem;
+	}
+
+	.logo,
+	.hambMenu__logo {
+		width: (104px/375px)*100vw;
+
+		@include respond(tab-port) {
+			width: 14rem;
+		}
+	}
+
+	&__right {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&--width {
+			width: 70%;
+
+			@include respond(tab-port) {
+				margin-right: 5vw;
+				margin-left: auto;
+			}
+
+			@include respond(laptop) {
+				width: 44rem;
+				margin-right: 5rem;
+			}
+		}
+
+		@include respond(tab-port) {
+			width: 100%;
+			min-width: 35rem;
+			max-width: 56rem;
+		}
+	}
+
+	&__menuLists {
+		display: flex;
+		font-weight: bold;
+		justify-content: space-between;
+	}
+
+	&__menuList {
+		font-size: 1.4rem;
+		padding-bottom: .5rem;
+		overflow: hidden;
+		transform: translateY(0.5rem);
+
+		a {
+			color: $color-font;
+			transition: color .3s $easeOutExpo;
+			position: relative;
+
+			&::before {
+				content: '';
+				position: absolute;
+				display: inline-block;
+				bottom: 0;
+				right: 0;
+				left: auto;
+				height: 2px;
+				width: 0;
+				background: $color-main;
+				transition: all .3s $easeOutExpo;
+			}
+
+			&:hover {
+				color: $color-main;
+
+				&::before {
+					width: 100%;
+					left: 0;
+				}
+			}
+		}
+	}
+
+	&__hamb {
+		position: relative;
+		z-index: 9999;
+		width: 5rem;
+		height: 5rem;
+		border-radius: 50% 50%;
+		border: .1rem solid $color-font;
+		background-color: $color-white;
+		cursor: pointer;
+		transition: all .3s $easeOutExpo;
+
+		&:hover .header__hamb--dotsContainer {
+			transform: rotate(90deg) scale(0.6);
+			
+		}
+
+		@include respond(tab-port) {
+			width: 6.5rem;
+			height: 6.5rem;
+		}
+
+		&--dotsContainer {
+			width: 100%;
+			height: 100%;
+			border-radius: 50% 50%;
+			bottom: .1rem;
+			right: .1rem;
+			transition: transform .3s $easeOutExpo;
+		}
+
+		&--dots {
+			width: .6rem;
+			height: .6rem;
+			border-radius: 50% 50%;
+			background-color: $color-font;
+		}
+
+		&--fst {
+			@include absCenter;
+			top: 1.3rem;
+
+			@include respond(tab-port) {
+				top: 2.1rem;
+			}
+		}
+
+		&--sec {
+			@include absCenter;
+		}
+
+		&--thrd {
+			@include absCenter;
+			top: 3.5rem;
+
+			@include respond(tab-port) {
+				top: 4.3rem;
+			}
+		}
+	}
 }

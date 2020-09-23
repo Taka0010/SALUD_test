@@ -3,82 +3,91 @@
 //   max-width: 144rem;
 //   margin: 0 auto;
 // }
-.l-base{
-  padding: 0 (25px/375px)*100%;
-  margin: 0 auto;
-  @include respond(tab-port){
-    padding: 0 (160px/1440px)*100%;
-  }
-}
-.l-btn{
-  padding: 0 (25px/375px)*100%;
-  margin: 0 auto;
-  @include respond(tab-port){
-    padding: 0 (160px/1440px)*100%;
-  }
+.l-base {
+	padding: 0 (25px/375px)*100%;
+	margin: 0 auto;
+
+	@include respond(tab-port) {
+		padding: 0 (160px/1440px)*100%;
+	}
 }
 
-.main{
-  overflow: hidden;
-  width: 100%;
-  &__forBg{
-    background: url(../img/common/bg-grid.png);
-    background-repeat: repeat;
-    background-size: 3rem;
-    @include respond(tab-port){
-      background-size: 6rem;
-    }
-  }
-  &__inner{
-    padding-top: 11rem;
-    @include respond(tab-port){
-      padding-top: 20rem;
-    }
-  }
-  &__ttlBlock{
-    padding-top: 3rem;
-    background: $color-white;
-    @include respond(tab-port){
-      padding-top: 0rem;
-      background: transparent;
-    }
-  }
+.l-btn {
+	padding: 0 (25px/375px)*100%;
+	margin: 0 auto;
+
+	@include respond(tab-port) {
+		padding: 0 (160px/1440px)*100%;
+	}
+}
+
+.main {
+	overflow: hidden;
+	width: 100%;
+
+	&__forBg {
+		background-image: repeating-linear-gradient(to bottom, #F2F2F2, #F2F2F2 1px, transparent 0, transparent 64px), repeating-linear-gradient(to right, #F2F2F2, #F2F2F2 1px, transparent 0, transparent 64px);
+
+		@include respond(tab-port) {
+			background-image: repeating-linear-gradient(to bottom, #F2F2F2, #F2F2F2 1px, transparent 0, transparent 49px), repeating-linear-gradient(to right, #F2F2F2, #F2F2F2 1px, transparent 0, transparent 49px);
+		}
+	}
+
+	&__inner {
+		padding-top: 11rem;
+
+		@include respond(tab-port) {
+			padding-top: 20rem;
+		}
+	}
+
+	&__ttlBlock {
+		padding-top: 3rem;
+		background: $color-white;
+
+		@include respond(tab-port) {
+			padding-top: 0rem;
+			background: transparent;
+		}
+	}
 }
 
 
 //フォンt設定
-.en{
-  font-family: brandon-grotesque, sans-serif;
-}
-.jp{
-  font-family: 'Noto Sans', sans-serif;
+.en {
+	font-family: "brandon-grotesque", sans-serif;
 }
 
-.header__menuList,.footer__menuList{
-  letter-spacing: .06em;
+.jp {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header__menuList,
+.footer__menuList {
+	letter-spacing: .06em;
 }
 
 //スマホ、PCでの非表示
-.onlyShowForSp{
-  display: block;
-  @include respond(tab-port){
-    display: none;
-  }
+.onlyShowForSp {
+	display: block;
+
+	@include respond(tab-port) {
+		display: none;
+	}
 }
 
-.onlyShowForPc{
-  display: none;
-  @include respond(tab-port){
-    display: block;
-  }
+.onlyShowForPc {
+	display: none;
+
+	@include respond(tab-port) {
+		display: block;
+	}
 }
 
-.onlyShowForBigPc{
-  display: none;
-  @include respond(desktop){
-    display: block;
-  }
+.onlyShowForBigPc {
+	display: none;
+
+	@include respond(desktop) {
+		display: block;
+	}
 }
-
-
-
