@@ -112,7 +112,7 @@
 				<li class="member__box member__box--thd onlyShowForPc wow fadeInUp">
 					<p>JOIN US</p>
 				</li>
-				</div>
+			</ul>
 		</section>
 
 		<section class="company" id="company">

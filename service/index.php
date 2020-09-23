@@ -56,8 +56,8 @@
                                 <li class="servicePoints__list">機械学習モデル構築</li>
                                 <li class="servicePoints__list">広告運用</li>
                                 <li class="servicePoints__list">システム開発</li>
-                                <li class="servicePoints__list">ECサイト運営代行(パートナー：<a href="#"><span>amamall</span><img src="../img/service/external-link-alt-solid.svg"></a>)</li>
-                                <li class="servicePoints__list">クリエイティブ制作(パートナー：<a href="#"><span>ARUTEGA</span><img src="../img/service/external-link-alt-solid.svg"></a>)</li>
+                                <li class="servicePoints__list">ECサイト運営代行(パートナー：<a href="https://amamall.jp/" target="_blank"><span>amamall</span><img src="../img/service/external-link-alt-solid.svg"></a>)</li>
+                                <li class="servicePoints__list">クリエイティブ制作(パートナー：<a href="https://hiraomakoto.jp/" target="_blank"><span>ARUTEGA</span><img src="../img/service/external-link-alt-solid.svg"></a>)</li>
                             </ul>
                         </div>
                     </div>
@@ -84,13 +84,13 @@
                 <div class="servicePoints__container servicePoints__trd wow fadeInUp" data-wow-delay=".2s">
                     <p class="servicePoints__num">03</p>
                     <div class="servicePoints__box">
-                        <h3 class="servicePoints__ttl">R&D</h3>
+                        <h3 class="servicePoints__ttl">R&amp;D</h3>
                         <div class="servicePoints__exp">
                             <p class="servicePoints__txt">当社はデジタル・トランスフォーメーションの潮流に乗りながら、事業を創出し、推進する会社です。そのためには、学際的な研究開発が欠かせず、高専・大学や研究機関、行政とも連携しながら、生活者の課題を解決する研究及び技術開発に貢献します。</p>
                             <ul class="servicePoints__lists">
                                 <li class="servicePoints__list">一般財団法人 人生100年社会デザイン財団(賛助会員) ※10月に財団設立</li>
                                 <li class="servicePoints__list">特定非営利活動法人Learning for All（協賛）</li>
-                                <li class="servicePoints__list">IoT自転車による移動データ追跡システム<br>[特願2019-109523「自転車情報提供システム]</li>
+                                <li class="servicePoints__list">IoT自転車による移動データ追跡システム<br>[特願2019-109523]「自転車情報提供システム]</li>
                             </ul>
                         </div>
                     </div>
