@@ -15,6 +15,7 @@
 
 	.mainTtl--jp {
 		padding-bottom: 4rem;
+		color: $color-black;
 
 		@include respond(tab-port) {
 			position: relative;

@@ -42,7 +42,7 @@
 				<div class="about__vision">
 					<div class="about__ttlBox wow fadeInUp">
 						<div class="about__enTtl">VISION</div>
-						<div class="about__jpTtl">こころ<span>と</span>からだ<span>の</span><br>豊さ<span>を</span>。</div>
+						<div class="about__jpTtl">豊かさ<span>の</span>研究を通じて<br>世界<span>を</span>前進させる</div>
 					</div>
 					<div class="about__txtBox wow fadeInUp">
 						<p>限りある人生を充実させ、満足度を高めるためにできることは、人それぞれなのだと思います。</p>
@@ -64,7 +64,7 @@
 					<div class="about__mission">
 						<div class="about__ttlBox wow fadeInUp">
 							<div class="about__enTtl">MISSION</div>
-							<div class="about__jpTtl">人生<span>の</span>満足度<span>に</span><br>貢献する</div>
+							<div class="about__jpTtl">デジタル<span>で</span>社会<span>を</span><br>豊かにする</div>
 						</div>
 						<div class="about__txtBox wow fadeInUp">
 							<p>日本で少子化・高齢化が問題視されてしばらく経ちます。長生きできる世の中に感謝しつつ、人生の選択肢が多様化したことや社会構造の変化にシステムが対応できていない現状があると考えています。</p>
